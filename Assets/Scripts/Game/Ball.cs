@@ -29,7 +29,7 @@ public class Ball : MonoBehaviour
     public void ResetPosition()
     {
         _rigidbody.position = Vector2.zero;
-        _rigidbody.velocity = Vector2.zero;
+        _rigidbody.linearVelocity = Vector2.zero;
         AddStartingForce();
     }
 }
